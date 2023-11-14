@@ -23,4 +23,63 @@ h1 {
 .wt-inpt h3 {
     margin-left: 25%;
 }
+.wt-inpt input {
+    height: 46px;
+    width: 100%;
+    outline: none;
+    font-size: 1.07rem;
+    padding: 0 17px;
+    margin: 10px 0 20px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.wt-inpt input:focus {
+    padding: 0 16px;
+    border: 2px solid #5372F0;
+}
+
+.wt-inpt .separator {
+    height: 1px;
+    width: 100%;
+    margin: 25px 0;
+    background: #BBBBBB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wt-inpt .separator::before {
+    content: "or";
+    color: #6C757D;
+    font-size: 1.18rem;
+    padding: 0 15px;
+    margin-top: -4px;
+    background: #E3F2FD;
+}
+
+.wt-inpt button {
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #fff;
+    background: #5372F0;
+    transition: 0.2s ease;
+}
+
+.wt-inpt .search-btn:hover {
+    background: #2c52ed;
+}
+
+.wt-inpt .location-btn {
+    background: #6C757D;
+}
+
+.wt-inpt .location-btn:hover {
+    background: #5c636a;
+}
 
